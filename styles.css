@@ -1,0 +1,67 @@
+#calculator-wrapper
+{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(3, 27, 109, 0.842);
+    margin: auto;
+}
+#screen-portion
+{
+    width: 400px;
+    height: 50px;
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+#clear-and-delete
+{
+    margin-left: 50px;
+
+
+   
+}
+#clear-and-delete > button
+{
+    width: 100px;
+    height: 60px;
+    margin-right: 50px;
+    background-color: rgb(70, 67, 67);
+    color: white;
+}
+#numbers-section
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+
+}
+.numbers
+{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(70, 67, 67);
+    color: white;
+}
+
+#operation-section
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    position: relative;
+    top: -270px;
+    right: 10px;
+}
+.operation
+{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(70, 67, 67);
+    color: white;
+}
